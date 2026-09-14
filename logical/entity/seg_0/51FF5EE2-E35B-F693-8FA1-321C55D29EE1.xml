@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51FF5EE2-E35B-F693-8FA1-321C55D29EE1" name="Cliente">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:58:00 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="7FB8FA5F-9E52-1039-E1FE-4165EC4BC686">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:00:57 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_completo" id="B6F97A88-6259-EC3D-5EC4-BD31AEBF8382">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:00:58 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="C086FB2D-ACAE-8E26-865F-240AD07E495B">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:00:58 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_comuna" id="FE408F97-8035-F093-03A6-F1CA72850CA4">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:00:58 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_boleta" id="C32A1C05-D705-08AB-2573-265038E69F02">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:26:19 UTC</createdTime>
+<generatorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>E492F663-527E-3ACA-6724-D7003E86BD8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_boleta1" id="26E09E5F-772A-6B5C-E12D-ABA25162562A">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:26:19 UTC</createdTime>
+<generatorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>CBA0B3B2-75EB-9FD9-A8F1-DA352ABD08DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="19B493F8-B3A0-7A43-8ACC-43802ADB5757">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:26:19 UTC</createdTime>
+<generatorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>EBB2E6EE-A589-15D0-56C6-0397CC80638F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2041A97-374F-1591-FA70-3DBE358B49F0" name="Cliente PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:24:41 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

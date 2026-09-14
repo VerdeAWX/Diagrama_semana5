@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99687874-44A4-EB13-4C76-EEF1A6E71A4A" containerWithKeyObject="AB772F34-CFAC-1308-7660-B28A765DDE1F" localFKIndex="72E28FD1-41F3-AD4E-51D1-DABA40F0A483" name="Producto_Proveedor_Proveedor_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>821484C8-E108-321C-8F6D-36AA147BE85C</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<referredTableLongName>Proveedor</referredTableLongName>
+<arc>2B20644B-C737-3FE4-0803-1CA12022DBC2</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A33FA38-24B2-0148-E83C-A41191A44CF7</referredTableID>
+<keyObject>C16F4AE5-CD27-73AF-964B-4231498B21DE</keyObject>
+<referredKeyID>C16F4AE5-CD27-73AF-964B-4231498B21DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_proveedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

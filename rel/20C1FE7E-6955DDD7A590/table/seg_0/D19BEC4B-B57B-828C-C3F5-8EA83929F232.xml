@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D19BEC4B-B57B-828C-C3F5-8EA83929F232" name="Comuna">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>E4FCADE4-D944-A7A5-922B-4BABAA936C0B</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_comuna" id="49411D70-3E14-F609-25A3-8CE42A8B0CB1">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>6714E6B9-8D0D-0240-2BC3-350E2CAEA0F2</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_comuna" id="82CC1C74-5660-7AEA-6061-8AEE7E4229F7">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>DDE04BF6-A4FC-398F-621A-534E79957901</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_region" id="EBA727AC-DFBC-C8BD-16FD-23E85F34C8D3">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>DF84F1C5-28C5-C21B-6950-79C97E235AFE</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_sigla_sucursal" id="E63B971E-1F58-248F-AAFC-7B4E87A123B6">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>63781B86-AC84-2CB0-BA69-BC73B354DDDC</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2436354D-F722-4307-775F-B85A961F9B35" referredColumn="F7F378F7-BF7D-9E6D-961D-7CCE67C6EC4D"/>
+</associations>
+</Column>
+<Column name="Sucursal_id_producto" id="21C3D33E-6647-BDC9-1C55-4720E48FC657">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>D13880E1-C6FA-0561-8AB7-8468F5CDB99D</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2436354D-F722-4307-775F-B85A961F9B35" referredColumn="FC8482D3-2BA6-584B-B724-877AFE67C1DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="417C54CA-EFDD-6DAA-3185-77E800C0DB08" name="Comuna_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>7DF73009-E749-FAFB-C577-A9494E9FAFB6</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="DFD5CBC1-D0C9-0A59-DAC1-2BC7891D108E" name="Comuna__IDX">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EA9F2CC3-A96E-9EEC-1645-68A9E62F5EC5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E63B971E-1F58-248F-AAFC-7B4E87A123B6"/>
+<colUsage columnID="21C3D33E-6647-BDC9-1C55-4720E48FC657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52A8A06D-BC38-3B62-25FD-306F18168C86" name="Comuna_Sucursal_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>EA9F2CC3-A96E-9EEC-1645-68A9E62F5EC5</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63B971E-1F58-248F-AAFC-7B4E87A123B6"/>
+<colUsage columnID="21C3D33E-6647-BDC9-1C55-4720E48FC657"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

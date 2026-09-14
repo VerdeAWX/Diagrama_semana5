@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="482600F6-A29E-CF94-68B5-547C71D1B913" name="Relation_6">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_Modelo_codigo_modelo" id="50AECC8A-BA28-F271-0986-E1022F51582C">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B069A05-F043-89DD-AFAA-DAF93585AC86" referredColumn="B02D886E-1188-50BC-1A90-100E582C9DBC"/>
+</associations>
+</Column>
+<Column name="Proveedor_rut_proveedor" id="950428FB-4D00-3B81-CC38-9F32845BE589">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2205EC22-CF6A-EC34-D923-0C5F4444BA6E" referredColumn="78591845-87D6-4C62-F1ED-5A80DFA4EACE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A7B6D3B-6D10-E6C9-A11A-E47756012AA5" name="Relation_6_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50AECC8A-BA28-F271-0986-E1022F51582C"/>
+<colUsage columnID="950428FB-4D00-3B81-CC38-9F32845BE589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65035E36-0B2A-8A41-2E65-3EB767A69FCC" name="Relation_6_Producto_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>F3935A10-E209-5707-D083-B291FDB2CCE6</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50AECC8A-BA28-F271-0986-E1022F51582C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C918A9B2-2BB1-7945-2028-6C860A5F8666" name="Relation_6_Proveedor_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>F3935A10-E209-5707-D083-B291FDB2CCE6</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="950428FB-4D00-3B81-CC38-9F32845BE589"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47B50887-6156-0384-8D02-184A4F88DE21" name=".">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_codigo_modelo1" id="3139FD0D-C1EA-8EFC-8A18-B92B277EB0AD">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F48E566-4DE7-AF43-57A1-A1E7EF65662A" referredColumn="B02D886E-1188-50BC-1A90-100E582C9DBC"/>
+</associations>
+</Column>
+<Column name="Detalle_Boleta_num_boleta" id="5A1C7087-7400-468C-0187-5CFBE93F0231">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="798ADD6B-4BA0-8AC3-29B9-3B616154F54E" referredColumn="EDC990F5-A399-8B0C-AB2F-2580E4A7129F"/>
+</associations>
+</Column>
+<Column name="Detalle_Boleta_id_producto" id="559AE5B0-15F6-DA2B-F59B-EAA7B24FA9AB">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="798ADD6B-4BA0-8AC3-29B9-3B616154F54E" referredColumn="6342A51C-3F63-DCA9-B751-33376A78A559"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B104467F-D401-F685-0D62-18CA867AC323" name="._PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3139FD0D-C1EA-8EFC-8A18-B92B277EB0AD"/>
+<colUsage columnID="5A1C7087-7400-468C-0187-5CFBE93F0231"/>
+<colUsage columnID="559AE5B0-15F6-DA2B-F59B-EAA7B24FA9AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EDA43CB-92B2-D9E1-DE9A-166E4B58DCD0" name="._Producto_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>CB88BA15-CBE3-1439-514E-D4810A326E49</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3139FD0D-C1EA-8EFC-8A18-B92B277EB0AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5959F4B-C859-DF90-E572-99197ABC8AC1" name="._Detalle_Boleta_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>CB88BA15-CBE3-1439-514E-D4810A326E49</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1C7087-7400-468C-0187-5CFBE93F0231"/>
+<colUsage columnID="559AE5B0-15F6-DA2B-F59B-EAA7B24FA9AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

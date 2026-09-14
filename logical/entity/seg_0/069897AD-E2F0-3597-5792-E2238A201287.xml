@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="069897AD-E2F0-3597-5792-E2238A201287" name="Modelo">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:45:49 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_marca" id="0CCEA3B2-2869-45C8-3827-6473F8281265">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:46:08 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_modelo" id="FC24A679-1648-B8CE-3EE6-841A540B8CA1">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:46:08 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_modelo" id="72836F9B-B525-F27E-2419-2BAC8BAEA659">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:46:08 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca1" id="D1625224-8360-1181-38C7-9C3349D81F2E">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:16:53 UTC</createdTime>
+<generatorID>F1E5ECA7-2DE7-BD8B-A693-259F0B53217B</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>6365E752-9684-ADDC-F793-7C66489F2F3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30206F1A-0078-6417-6193-837146511546" name="Modelo PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:46:20 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC24A679-1648-B8CE-3EE6-841A540B8CA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

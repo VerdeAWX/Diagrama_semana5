@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9433BA8-620F-63CA-BA4F-38C9B302BA8E" name="Empresa">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:36:45 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E54AB8CE-F06C-DA01-8E90-C2FEB2252864</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_proveedor" id="986324CF-324B-6B6A-8DAF-BEAC2FE5B429">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:37:06 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon_social" id="FCB677B8-B69F-4E70-555A-A746536F26F2">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:37:29 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="website" id="EDDAD3BE-B8A6-C647-479B-7BA7C528CB29">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:37:48 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96193626-BAD5-EFDF-72B7-F6768AE75BC0" name="empresa PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:37:27 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>986324CF-324B-6B6A-8DAF-BEAC2FE5B429</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

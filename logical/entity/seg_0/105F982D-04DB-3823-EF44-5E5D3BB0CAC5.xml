@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="105F982D-04DB-3823-EF44-5E5D3BB0CAC5" name="Sucursal">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:56:31 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sigla" id="D0E82CA7-5880-76E8-9FCF-936E836A04E6">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:56:42 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_sucursal" id="25FF2249-B662-6608-6008-7ABFF7A420B9">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:56:42 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_comuna" id="28006A5F-C438-119C-B99D-63E852EB72CE">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 22:56:42 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla_sucursal" id="C526796F-F0F2-D22F-2020-0D5E7AA7CEDD">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:23:01 UTC</createdTime>
+<generatorID>994EDF75-196E-95DC-C213-3B2480CCB03D</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>45F470B5-4AA7-CE86-69B4-09C5B22CDE10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="DADC071C-51E3-871F-7D35-36C7D7D557AC">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:23:01 UTC</createdTime>
+<generatorID>994EDF75-196E-95DC-C213-3B2480CCB03D</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<referedAttribute>8220A35E-2292-BA92-A038-0FB448A1CE0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FD5530A-30F3-D21F-E47B-3B65DDC9BC7E" name="Sucursal PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:23:01 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<engineerTo>
+<item key="20C1FE7E-4E09-3F21-E57F-6955DDD7A590" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C526796F-F0F2-D22F-2020-0D5E7AA7CEDD</attributeRef>
+<attributeRef>DADC071C-51E3-871F-7D35-36C7D7D557AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

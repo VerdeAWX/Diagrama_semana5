@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B3F7C10-C656-7C00-146D-FF8B8EAC2312" containerWithKeyObject="55DE0B32-32DE-CED1-42EA-1624B789B3A1" localFKIndex="717C6667-54E0-D482-FED8-EC04BEBF84DF" name="Cliente_Boleta_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<referredTableLongName>Boleta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>452A917B-B88B-6020-4DF1-D663DAB9CBF1</referredTableID>
+<keyObject>1176E73E-6E77-5A00-C202-48E922E75420</keyObject>
+<referredKeyID>1176E73E-6E77-5A00-C202-48E922E75420</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_boleta,Detalle_Boleta_num_boleta,Detalle_Boleta_id_producto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94AA1926-4F36-C083-0417-BA84E3530812" name="Persona">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>C3CCB468-4733-7B30-BE3D-BE713BC1F483</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_proveedor" id="C27211CA-3381-E719-8398-A4E55A69E673">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>2CD152BA-F8A9-6F00-F1B2-61BD90C2B48E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DD1433F-CEEA-3106-78E2-3E3A67D4749A" referredColumn="78591845-87D6-4C62-F1ED-5A80DFA4EACE"/>
+</associations>
+</Column>
+<Column name="rut_proveedor1" id="B0BD827C-A516-B452-FC58-0DA8480E7D8A">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>AA7E2440-081F-1723-1732-B410CCCFEF5B</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="FB0FF381-2B5A-57C4-69CC-789BAA2799B8">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>A7F74593-0F86-3A50-27F1-597A9D45FDE9</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_paterno" id="D7C1F440-4CF9-AC55-E0D9-7E499B87868D">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>9B52C26C-47A1-EE94-2860-5FF13CD9AB7C</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido_materno" id="81BCAF8F-E0A6-A065-2B59-9CC8D906D5DD">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>5FA948AF-870A-4C34-667B-A887B40AFD3F</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF8611AB-6A50-BBD4-72D4-991DDFD47360" name="Persona_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>84592892-A80F-6563-7DA8-14F211795D7E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27211CA-3381-E719-8398-A4E55A69E673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C316E1F0-3B0A-90AD-1172-E1D9FD52AD71" name="Persona_PKv1">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>2BD57707-8F5E-1A80-A70D-3C9A8EAF4664</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0BD827C-A516-B452-FC58-0DA8480E7D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC2D693C-CDCB-27D1-0BC1-5F34FB14176E" name="Persona_Proveedor_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>8BD3E310-E7F8-F895-7895-2F6CF65D3ED2</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27211CA-3381-E719-8398-A4E55A69E673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

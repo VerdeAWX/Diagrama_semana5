@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87E63FD9-9996-1945-037B-94658FB33FEE" name="Relation_7">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_Modelo_codigo_modelo" id="3AE6982C-2FAA-B9E4-FAFF-A6D6E35A5675">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D22403B3-1C60-BD94-78CB-5B2F8EE0A55F" referredColumn="B02D886E-1188-50BC-1A90-100E582C9DBC"/>
+</associations>
+</Column>
+<Column name="Stock_Sucursal_sigla_sucursal" id="083C8D3C-0BAD-A10C-7190-A97AC5E71DCA">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E74D80A-30CF-2447-9F04-6B5F9C05B189" referredColumn="2C399831-2123-6231-ADEE-20109623165B"/>
+</associations>
+</Column>
+<Column name="Stock_Sucursal_id_producto" id="CF044C3B-62D2-1E49-9933-E8C1494CE02B">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E74D80A-30CF-2447-9F04-6B5F9C05B189" referredColumn="5EE3967C-E398-349E-AEAB-7915954120E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF6B69D8-F87E-DBA6-EF87-0C4BAAECF059" name="Relation_7_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AE6982C-2FAA-B9E4-FAFF-A6D6E35A5675"/>
+<colUsage columnID="083C8D3C-0BAD-A10C-7190-A97AC5E71DCA"/>
+<colUsage columnID="CF044C3B-62D2-1E49-9933-E8C1494CE02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66E8B399-C9DC-D785-C971-BCB520451698" name="Relation_7_Producto_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>EF859B9A-E6C9-E6DB-3F6F-3AF5293CC723</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AE6982C-2FAA-B9E4-FAFF-A6D6E35A5675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DED22BB3-D774-0A3E-AC0C-572C7FFD85FB" name="Relation_7_Stock_Sucursal_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>EF859B9A-E6C9-E6DB-3F6F-3AF5293CC723</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="083C8D3C-0BAD-A10C-7190-A97AC5E71DCA"/>
+<colUsage columnID="CF044C3B-62D2-1E49-9933-E8C1494CE02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

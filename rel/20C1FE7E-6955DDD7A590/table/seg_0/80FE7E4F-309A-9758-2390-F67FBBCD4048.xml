@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80FE7E4F-309A-9758-2390-F67FBBCD4048" name="Sucursal">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>105F982D-04DB-3823-EF44-5E5D3BB0CAC5</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sigla" id="72EF338E-C689-5387-5F2C-99E4EC364B0A">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>D0E82CA7-5880-76E8-9FCF-936E836A04E6</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_sucursal" id="45320C6B-DE6A-A793-57A2-1B1C73175515">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>25FF2249-B662-6608-6008-7ABFF7A420B9</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_comuna" id="A24A680B-D73D-CC31-FBAE-D0D8B1FC12F7">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>28006A5F-C438-119C-B99D-63E852EB72CE</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock_Sucursal_sigla_sucursal" id="F7F378F7-BF7D-9E6D-961D-7CCE67C6EC4D">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>C526796F-F0F2-D22F-2020-0D5E7AA7CEDD</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC9CA923-E71E-CA26-49EA-7353725F72ED" referredColumn="2C399831-2123-6231-ADEE-20109623165B"/>
+</associations>
+</Column>
+<Column name="Stock_Sucursal_id_producto" id="FC8482D3-2BA6-584B-B724-877AFE67C1DC">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>DADC071C-51E3-871F-7D35-36C7D7D557AC</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC9CA923-E71E-CA26-49EA-7353725F72ED" referredColumn="5EE3967C-E398-349E-AEAB-7915954120E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37C58AEA-5907-244C-F091-34227EF7E86A" name="Sucursal_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>6FD5530A-30F3-D21F-E47B-3B65DDC9BC7E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F378F7-BF7D-9E6D-961D-7CCE67C6EC4D"/>
+<colUsage columnID="FC8482D3-2BA6-584B-B724-877AFE67C1DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89ACCDEA-5A23-FD74-C24A-4680CE103556" name="Sucursal_Stock_Sucursal_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>994EDF75-196E-95DC-C213-3B2480CCB03D</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F378F7-BF7D-9E6D-961D-7CCE67C6EC4D"/>
+<colUsage columnID="FC8482D3-2BA6-584B-B724-877AFE67C1DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

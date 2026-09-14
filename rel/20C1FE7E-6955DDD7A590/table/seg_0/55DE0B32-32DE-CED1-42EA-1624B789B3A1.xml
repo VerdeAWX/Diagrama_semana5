@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55DE0B32-32DE-CED1-42EA-1624B789B3A1" name="Cliente">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>51FF5EE2-E35B-F693-8FA1-321C55D29EE1</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="B7DB396A-4C65-72FC-F7C9-B234094368B5">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>7FB8FA5F-9E52-1039-E1FE-4165EC4BC686</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_completo" id="5E45CDDB-EA18-2C54-7224-19F77D271FC7">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>B6F97A88-6259-EC3D-5EC4-BD31AEBF8382</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="EA30F2FA-1BCC-6C47-167C-D8A7D5051E44">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>C086FB2D-ACAE-8E26-865F-240AD07E495B</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_comuna" id="916B2C5B-F8A9-A5E3-C678-208390A0CE00">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>FE408F97-8035-F093-03A6-F1CA72850CA4</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boleta_num_boleta" id="D40078EE-D9F8-62FE-4579-C0BAFB236000">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>C32A1C05-D705-08AB-2573-265038E69F02</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B3F7C10-C656-7C00-146D-FF8B8EAC2312" referredColumn="6D26E577-7F29-3D9D-BA11-07A075A1B054"/>
+</associations>
+</Column>
+<Column name="Boleta_Detalle_Boleta_num_boleta" id="83AFE06E-444F-5876-8E38-7831B2B8B94C">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>26E09E5F-772A-6B5C-E12D-ABA25162562A</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B3F7C10-C656-7C00-146D-FF8B8EAC2312" referredColumn="7246D3C4-BFE4-0E44-6AD6-B29081FC6025"/>
+</associations>
+</Column>
+<Column name="Boleta_Detalle_Boleta_id_producto" id="82145F06-184D-AA18-37FC-5912377A9D85">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>19B493F8-B3A0-7A43-8ACC-43802ADB5757</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B3F7C10-C656-7C00-146D-FF8B8EAC2312" referredColumn="83851915-025E-0C91-4997-A1A0E8B8A75A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E40A2E99-D2BF-1784-A8EC-76DFE31FB525" name="Cliente_PK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>C2041A97-374F-1591-FA70-3DBE358B49F0</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F314EE8A-6731-068E-8034-2CA50566FA9D" name="Cliente__IDX">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D40078EE-D9F8-62FE-4579-C0BAFB236000"/>
+<colUsage columnID="83AFE06E-444F-5876-8E38-7831B2B8B94C"/>
+<colUsage columnID="82145F06-184D-AA18-37FC-5912377A9D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="717C6667-54E0-D482-FED8-EC04BEBF84DF" name="Cliente_Boleta_FK">
+<createdBy>carlo</createdBy>
+<createdTime>2026-09-14 23:30:40 UTC</createdTime>
+<generatorID>21051218-C1F2-2882-9728-B7EEC4D10E9E</generatorID>
+<ownerDesignName>Diagrama_semana5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D40078EE-D9F8-62FE-4579-C0BAFB236000"/>
+<colUsage columnID="83AFE06E-444F-5876-8E38-7831B2B8B94C"/>
+<colUsage columnID="82145F06-184D-AA18-37FC-5912377A9D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
